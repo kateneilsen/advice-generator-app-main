@@ -6,6 +6,11 @@ const advice_result = document.getElementById("advice_result");
 //event listener for clicking button
 advice_btn.addEventListener("click", getRandomAdvice);
 
+//when page first loads
+window.onload = () => {
+  getRandomAdvice();
+};
+
 function getRandomAdvice() {
   fetch("https://api.adviceslip.com/advice")
     .then((res) => res.json())
