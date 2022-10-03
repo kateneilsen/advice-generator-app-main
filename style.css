@@ -67,7 +67,7 @@ section{
     height: 64px;
     border-radius: 50%;
     cursor: pointer;
-    background: #53FFAA;
+    background: rgb(83, 255, 170);
     text-align: center;
     display: flex;
     justify-content: center;
@@ -76,15 +76,21 @@ section{
     margin: 0 auto;
     right: 0;
     left: 0;
+    cursor: pointer;
 }
 
 button{
     border: none;
     background: transparent;
+    cursor: pointer;
 }
 
 button img{
     max-width: 100%;
+}
+
+.advice-btn:hover{
+    box-shadow: 0 0 11px rgba(83, 255, 170, 2);
 }
 
 .attribution {
