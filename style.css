@@ -1,0 +1,102 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body{
+    background-color: hsl(218, 23%, 16%);
+    font-family: 'Manrope', sans-serif;
+    height: 100vh;
+}
+
+img{
+    max-width: 100%;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.container{
+    margin: 120px 16px;
+    max-width: 540px;
+    height: auto;
+    background-color:#313A48;
+    border-radius: 1.25rem;
+    position: relative;
+    padding: 30px;
+}
+
+.container h1{
+    color: #53FFAA;
+    text-transform:uppercase;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 3.45714px;
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+
+.container p{
+    font-size: 28px;
+    color: #CEE3E9;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.divider{
+    max-width: 540px;
+}
+
+.divider img{
+    max-width: 100%;
+    max-height: 16px;
+    margin-bottom: 40px;
+}
+
+.advice-btn{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #53FFAA;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+}
+
+button{
+    border: none;
+    background: transparent;
+}
+
+button img{
+    max-width: 100%;
+}
+
+.attribution {
+    margin: 0 16px;
+    font-size: 11px;
+    text-align: center;
+    color: white;
+    font-size: .75rem;
+    padding: 1rem;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+    font-size: .75rem;
+  }
+
